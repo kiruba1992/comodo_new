@@ -1,0 +1,16 @@
+esc i  -edit
+esc + :wqi - save & quit
+esc qi - quit
+esc A - last line
+esc a - second character
+esc g - end of line
+esc o - 1 row below
+esc O - 1 row above
+esc dd - delete the particular line
+esc 5dd - delete the 5 line
+esc yy - copy line
+esc 5yy - 5 line copy
+esc u - undo
+esc / to find
+esc p - paste
+
