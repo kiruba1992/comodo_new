@@ -1,14 +1,15 @@
 pipeline {
   agent {
     docker {
-      image 'kirubatvm/ubuntuimagesrepo:1.0'
+      image 'node:6-alpine'
+      args 'args \'-p 3000:3000\''
     }
 
   }
   stages {
     stage('stage1') {
       steps {
-        sh 'apt-get update -y'
+        sh 'npm install'
       }
     }
   }
